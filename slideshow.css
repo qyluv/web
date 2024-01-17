@@ -1,0 +1,45 @@
+#outerbox
+{
+	width: 100px;
+	overflow: hidden;
+}
+
+#sliderbox{
+	
+	position: relative;
+	width: 100px;
+	animation-name: nee1;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+#sliderbox img
+{
+	float: left;
+	
+}
+
+@keyframes nee1{
+	0%{
+		left: 0px;
+	}
+	26%{
+		left: 0px;
+	}
+	33%{
+		left: -512px;
+	}
+	60%{
+		left: -512px;
+	}
+	66%{
+		left: -1024px;
+	}
+	93%{
+		left: -1024px;
+	}
+	100%{
+		left: -1536px;
+	}
+}
+	
